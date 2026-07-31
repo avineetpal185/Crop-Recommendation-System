@@ -1,25 +1,26 @@
-# 🌱 Crop Recommendation System
+<img width="1912" height="870" alt="Screenshot 2026-07-31 161217" src="https://github.com/user-attachments/assets/162d9dc0-2ae5-4908-af2e-6adfec7c25e2" /># 🌱 
+Crop Recommendation System
 
-A Machine Learning-based Crop Recommendation System that predicts the most suitable crop for cultivation using soil nutrients and environmental conditions. The application is built with Flask and provides an easy-to-use web interface for generating crop recommendations.
+A Machine Learning-based Crop Recommendation System that recommends the most suitable crop for cultivation using soil nutrients and environmental conditions. The application is developed using Flask and provides a simple, user-friendly web interface for generating crop recommendations.
 
 ---
 
 ## 📌 Project Overview
 
-Choosing the right crop based on soil and climatic conditions is essential for improving agricultural productivity. This project uses a trained Machine Learning model to recommend the most suitable crop based on user-provided soil and weather parameters.
+The Crop Recommendation System helps farmers and agricultural enthusiasts identify the most suitable crop based on soil nutrients and weather conditions.
 
-The application is developed using **Python**, **Flask**, and **Scikit-learn**, with a responsive frontend built using **HTML** and **Bootstrap**.
+The application takes important agricultural parameters as input, processes them using a trained Machine Learning model, and predicts the best crop for cultivation.
 
 ---
 
 ## ✨ Features
 
-- 🌱 Predicts the most suitable crop for cultivation.
-- 📊 Uses Machine Learning for crop recommendation.
-- 🌡️ Accepts real-time soil and weather parameters.
-- 💻 Simple and user-friendly web interface.
-- ⚡ Fast prediction using a pre-trained ML model.
-- 🎨 Responsive frontend built with Bootstrap.
+- 🌱 Machine Learning-based crop recommendation
+- 📊 Predicts the most suitable crop for cultivation
+- 🌡️ Uses soil and environmental parameters
+- 💻 Simple and interactive web interface
+- ⚡ Fast and accurate predictions
+- 🎨 Responsive design using Bootstrap
 
 ---
 
@@ -38,7 +39,7 @@ The application is developed using **Python**, **Flask**, and **Scikit-learn**, 
 
 ## 📊 Input Parameters
 
-The model takes the following inputs:
+The prediction is based on the following inputs:
 
 - Nitrogen (N)
 - Phosphorus (P)
@@ -52,7 +53,7 @@ The model takes the following inputs:
 
 ## 🌾 Supported Crops
 
-The system can recommend the following crops:
+The model can recommend the following crops:
 
 - Rice
 - Maize
@@ -93,71 +94,9 @@ Crop-Recommendation-System/
 │   └── index.html
 ├── static/
 │   └── img.jpg
+├── screenshot/
 └── README.md
 ```
-
----
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/avineetpal185/Crop-Recommendation-System.git
-```
-
-### 2️⃣ Navigate to the Project Folder
-
-```bash
-cd Crop-Recommendation-System
-```
-
-### 3️⃣ Install the Required Libraries
-
-```bash
-pip install flask numpy pandas scikit-learn joblib
-```
-
-### 4️⃣ Run the Flask Application
-
-```bash
-python app.py
-```
-
-### 5️⃣ Open Your Browser
-
-Visit:
-
-```
-http://127.0.0.1:5000
-```
-
----
-
-## 🖥️ How to Use
-
-1. Enter the following values:
-   - Nitrogen
-   - Phosphorus
-   - Potassium
-   - Temperature
-   - Humidity
-   - pH Value
-   - Rainfall
-
-2. Click the **Get Recommendation** button.
-
-3. The system will display the recommended crop for cultivation.
-
----
-
-## 📷 Output
-
-The application predicts and displays the most suitable crop based on the provided soil and environmental parameters.
-
-> **Note:** Screenshots of the application will be added in future updates.
-
----
 
 ## 🎯 Future Improvements
 
@@ -166,7 +105,7 @@ The application predicts and displays the most suitable crop based on the provid
 - Add crop disease prediction.
 - Deploy the application online.
 - Improve the UI/UX.
-- Add authentication and user history.
+- Add user authentication and history.
 
 ---
 
@@ -180,4 +119,4 @@ The application predicts and displays the most suitable crop based on the provid
 
 ## ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+If you found this project interesting, please consider giving it a ⭐ on GitHub.
